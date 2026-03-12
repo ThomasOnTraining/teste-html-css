@@ -1,0 +1,19 @@
+/* Configurações Gerais */
+body { margin: 0; font-family: Arial, sans-serif; }
+.container { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
+/* Estilo da Barra */
+.bagulho_acima {
+    background-color: #9666e9; /* Tom de laranja mais escuro */
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
